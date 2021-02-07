@@ -91,9 +91,9 @@ const { othermenu } require('./database/menu/othermenu')*/
 /******LOAD OF VCARD INPUT******/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:PAIN O GOXTOSO AMOR DA SUA VIDA😳❤\n' // full name
+            + 'FN:É mais que falso é Fakesss\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=5511949545217:+55 (11) 94954-5217\n' // ID do WhatsApp + número de telefone
+            + 'TEL;type=CELL;type=VOICE;waid=5527995819198:+55 (27) 995819198\n' // ID do WhatsApp + número de telefone
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -101,7 +101,7 @@ prefix = '!'
 blocked = []
 limitt = 100
 ban = []
-userpremium = ["5511949545217@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["5527995819198@s.whatsapp.net","5527997283929@s.whatsapp.net","5527997591105@whatsapp.net"] //ubah nomer kalian
 
 /******BEGIN OF FUNCTIONS INPUT******/
 const getLevelingXp = (userId) => {
@@ -262,7 +262,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Calmaer osuamerda to fazendo ⌛',
+				wait: '⌛ Calmaer caramba to tentanu ⌛',
 				success: '✔️ Sucesso ✔️',
                                 levelon: '❬ ✔ ❭ *habilitar Level*',
 				leveloff: ' ❬ X ❭  *desabilitar Level*',
@@ -280,14 +280,14 @@ async function starts() {
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
 					premium: '*𝗗𝗘𝗦𝗖𝗨𝗟𝗣𝗘 𝗘𝗦𝗧𝗘 𝗥𝗘𝗖𝗨𝗥𝗦𝗢 𝗣𝗔𝗥𝗔 𝗨𝗦𝗨A𝗥𝗜𝗢 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗘𝗦𝗣𝗘𝗖I𝗙I𝗖𝗢!!*',
-                    daftarB: `── 「REGISTRE-SE」 ──\nOlá como!\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}rg nome|idade\nExemplo : ${prefix}rg  Pain|18`,
+                    daftarB: `── 「REGISTRE-SE」 ──\nOlá como!\nVocê não está registrado no banco de dados, \n\nComando : ${prefix}fk nome|idade\nExemplo : ${prefix}fk  FAKESSS|19`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511949545217@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["5527995819198@s.whatsapp.net","5527997591105@s.whatsapp.net","27997283929@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -958,7 +958,7 @@ case 'timer':
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 pain bot 〙', members_id, true)
+					mentions('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 fake bot 〙', members_id, true)
 					break
                 case 'tagall2':
                 msgFilter.addFilter(from)
@@ -972,7 +972,7 @@ case 'timer':
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 pain bot 〙', members_id, true)				
+					mentions('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 fake bot 〙', members_id, true)				
 		        	break
                 case 'tagall3':
                 msgFilter.addFilter(from)
@@ -987,7 +987,7 @@ case 'timer':
 						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					client.sendMessage(from, '╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 pain bot 〙', text, {detectLinks: false, quoted: mek})
+					client.sendMessage(from, '╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 fake bot 〙', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
                         msgFilter.addFilter(from)
@@ -1017,7 +1017,7 @@ case 'timer':
 						teks += `╠➥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 pain bot 〙')
+					reply('╔══✪〘 Mencionando Todos 〙✪══\n╠➥'+teks+'╚═〘 fake bot 〙')
 					break
 				case 'send':
 					var pc = body.slice(6)
