@@ -308,7 +308,7 @@ async function starts() {
 			const isPrem = userpremium.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '5511949545217@s.whatsapp.net'
+                        const NomerOwner = '5527995819198@s.whatsapp.net'
                         /******ApiKey Input******/
                         const BarBarKey = 'YOUR_APIKEY'
                         /******End of ApiKey Input******/
