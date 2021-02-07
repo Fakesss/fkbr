@@ -101,7 +101,7 @@ prefix = '.'
 blocked = []
 limitt = 100
 ban = []
-userpremium = ["5527995819198@s.whatsapp.net","5527997283929@s.whatsapp.net","5527997591105@whatsapp.net"] //ubah nomer kalian
+userpremium = ["5527997591105@whatsapp.net"] //ubah nomer kalian
 
 /******BEGIN OF FUNCTIONS INPUT******/
 const getLevelingXp = (userId) => {
@@ -287,7 +287,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["5527995819198@s.whatsapp.net","5527997591105@s.whatsapp.net","27997283929@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["5527995819198@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
