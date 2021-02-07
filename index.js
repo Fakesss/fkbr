@@ -17,7 +17,7 @@ const {
     GroupSettingChange
 } = require('@adiwajshing/baileys')
 
-BEGIN OF FILE INPUT
+/******BEGIN OF FILE INPUT******/
 const { color, bgcolor } = require('./lib/color')
 const { bahasa } = require('./src/bahasa')
 const { negara } = require('./src/kodenegara')
