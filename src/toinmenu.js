@@ -1,17 +1,17 @@
 const toinmenu = (prefix, pushname) => {
     return `◪ *Comandos do pain*
 ╔════════════════════
-║╭──❉ *MENU DO TITIO PAIN* ❉── 
+║╭──❉ *MENU SÓ PRO FAKESSS* ❉── 
 ║│➸${prefix}prefixo
-║│Sobre : esse muda o prefixo
+║│Sobre : Muda o prefixo
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}block
-║│Sobre : esse da block
+║│Sobre : Da block
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}bc
-║│Sobre : esse da ban no numero usa naum
+║│Sobre : Ban no numero, usa naum ;-;
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}bcgc
@@ -19,10 +19,10 @@ const toinmenu = (prefix, pushname) => {
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}clearall
-║│Sobre : esse limpa todas conversa do bot
+║│Sobre : esse limpa todas conversa do bot, mas n vi funfar
 ║╰───────────
 ╠════════════════════
-║ TITIO PAIN O MAIS BRABOR
+║ FAKESSSS#1+2=3
 ╚════════════════════
 `
 
