@@ -88,7 +88,7 @@ const menuadmin = (prefix, pushname) => {
 ║│Sobre : esse e para saber quem e o dono do grupo
 ║╰───────────
 ╠════════════════════
-║ TITIO PAIN O BRABOR
+║ *1+2=3*
 ╚════════════════════
  `
 
