@@ -54,7 +54,6 @@ const _limit = JSON.parse(fs.readFileSync('./database/json/limit.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/json/leveling.json'))
 const _level = JSON.parse(fs.readFileSync('./database/json/level.json'))
 let anlink = JSON.parse(fs.readFileSync('./database/json/antilink.json'))
-const _limit = JSON.parse(fs.readFileSync('./database/json/limit.json'))
 /******END OF JSON INPUT******/
 
 let {
