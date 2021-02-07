@@ -1,5 +1,5 @@
 const toinmenu = (prefix, pushname) => {
-    return `◪ *Comandos do pain*
+    return `◪ *Fakesss Comandos*
 ╔════════════════════
 ║╭──❉ *MENU SÓ PRO FAKESSS* ❉── 
 ║│➸${prefix}prefixo
