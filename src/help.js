@@ -2,7 +2,7 @@ const help = (prefix,pushname2, user, limitt) => {
 	return `	
 ❉──────────❉
 
-   「 *PAIN BOT* 」
+   「 *FAKE BOT* 」
 
 ❉──────────❉
 ╔════════════════════
@@ -15,8 +15,8 @@ const help = (prefix,pushname2, user, limitt) => {
 ╔════════════════════
 ║╭──❉ *INFORMAÇÕES* ❉──
 ║│➸ Prefix: 「  ${prefix}  」
-║│➸ Criador : *TIO PAIN*
-║│➸ Numero do meu criador: https://wa.me/5511949545217
+║│➸ Criador : *FAKESSSBR*
+║│➸criador:TOIN, TIO PAIN, FAKESSSBR
 ║╰───────────    
 ╠════════════════════
 ║╭──❉ *STICKERS* ❉──
@@ -29,28 +29,28 @@ const help = (prefix,pushname2, user, limitt) => {
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}tomp3
-║│Sobre : o comando ${prefix}tomp3 e para converter videos em audio
+║│Sobre : o comando ${prefix}tomp3 é para converter videos em audio
 ║╰───────────
 ╠════════════════════
 ║╭──❉ *PREMIUM* ❉──
 ║│➸${prefix}play
-║│Sobre : esse comando ${prefix}play e para abaixar musica
+║│Sobre : esse comando ${prefix}play é para baixar musica
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}joox
-║│Sobre : esse comando ${prefix}joox e para abaixar musica/videos
+║│Sobre : esse comando ${prefix}joox é para abaixar musica/videos
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}ytmp3
-║│Sobre : esse comando ${prefix}ytmp3 e para abaixar musica
+║│Sobre : esse comando ${prefix}ytmp3 é para abaixar musica
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}snack
-║│Sobre : esse comando ${prefix}snack e para abaixar videos de algum lugar ai
+║│Sobre : esse comando ${prefix}snack é para abaixar videos de algum lugar ai
 ║╰───────────
 ║╭───────────
 ║│➸${prefix}ytmp4
-║│Sobre : esse comando ${prefix}ytmp4 e para abaixar videos com a url
+║│Sobre : esse comando ${prefix}ytmp4 é para abaixar videos com a url
 ║╰───────────
 ║╭───────────
 ║│*EM BREVE MAIS FUNÇOES PREMIUM*
@@ -59,7 +59,7 @@ const help = (prefix,pushname2, user, limitt) => {
 ╠════════════════════
 ║╭──❉ *AUDIO* ❉──
 ║│➸${prefix}tts
-║│Sobre : esse comando e para o bot falar\n║│exemplo : ${prefix}tts pt pain bot
+║│Sobre : esse comando e para o bot falar\n║│exemplo : ${prefix}tts pt fake bot
 ║╰───────────
 ╠════════════════════
 ║╭──❉ *FOTOS E OUTRAS COISINHAS* ❉──
@@ -93,7 +93,7 @@ const help = (prefix,pushname2, user, limitt) => {
 ║╰───────────
 ║╭───────────
 ║│➸ ${prefix}tempo
-║│Sobre : esse negocio ai nem sei pra que serve ksksksksks
+║│Sobre : esse negocio ai nem sei pra que serve ksksksksks(fkbr obs: acho q tem um erro no código)
 ║╰───────────
 ╠════════════════════
 ║╭──❉ *SOBRE* ❉──
@@ -131,7 +131,7 @@ const help = (prefix,pushname2, user, limitt) => {
 ║╰───────────
 ║╭───────────
 ║│➸ ${prefix}clearall
-║│Sobre : limpa tudo do chat do bot
+║│Sobre : limpa tudo do chat do bot(fkbr obs: pelo menos deveris né)
 ║╰───────────
 ╠════════════════════
 ║╭──❉ *OUTROS MENU* ❉──
@@ -147,7 +147,7 @@ const help = (prefix,pushname2, user, limitt) => {
 ║│➸ ${prefix}idiomas
 ║╰───────────
 ╠════════════════════
-║ TITIO PAIN O BRABOR DOS MENU
+║ESPERANTO NE MORTIS
 ╚════════════════════
 `
 }
